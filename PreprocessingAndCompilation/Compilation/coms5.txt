@@ -1,0 +1,3 @@
+gcc -c 5maths.c -o 5maths.o
+ar rcs libmaths.a 5maths.o
+gcc 5main.c -L\D:\VSCodeProjects\School\Compilation libmaths.a -o 5main

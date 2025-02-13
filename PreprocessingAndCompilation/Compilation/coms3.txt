@@ -1,0 +1,2 @@
+gcc -c 3transformation.c -o 3transformation.o
+gcc 3main.c 3transformation.o -o 3main
